@@ -1,0 +1,21 @@
+{
+    "detail-type": [
+        "ECR Image Scan"
+    ],
+    "source": [
+        "aws.ecr"
+    ],
+    "detail": {
+        "repository-name": [{
+            "prefix": "railway_pricing"
+        }],
+        "finding-severity-counts": {
+            "HIGH": [{
+                "numeric": [
+                    ">=",
+                    1
+                ]
+            }]
+        }
+    }
+}
